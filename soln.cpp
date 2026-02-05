@@ -53,6 +53,10 @@ int main() {
         cout << left << setw(50) << "Gross Box Office Profit:" << "$" << setw(10) << right << gross << endl;
         cout << left << setw(50) << "Net Box Office Profit: " << "$" << setw(10) << right << net << endl;
         cout << left << setw(50) << "Amount Paid to Distributor:" << "$" << setw(10) << right << distributor << endl;
+
+        //note that the sample in the book looks to have the tickets sold values centered in the field of the movie title
+        //could we figure out how to do this using the string length() member function and computing an appropriate field width 
+        //for the adultTickets and childTickets? 
         return 0; 
 }
 
